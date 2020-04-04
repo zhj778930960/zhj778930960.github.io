@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      @koa/multer
+title:      koa-multer
 subtitle:   用户上传文件
 date:       2020-04-04
 author:     BY
