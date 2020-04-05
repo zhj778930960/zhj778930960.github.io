@@ -47,12 +47,12 @@ tags:
        debug: process.env.NODE_ENV !== "production" //是否开启调试模式， 不在生产环境开启调试， 意思就是在开发环境下开启调试模式
    });
    
-   3.// 监听接口 将模板渲染到浏览器上
+   //3. 监听接口 将模板渲染到浏览器上
    router.get("/news", async (ctx) => {
        await ctx.render("index"); //index为views文件夹下的index.html  这里index就是文件夹的名称
    })
    
-   4. //如何在html运用变量显示，如何将值传入到html中
+  // 4. 如何在html运用变量显示，如何将值传入到html中
    router.get("/content", async (ctx) => {
        await ctx.render("content", {
             //要传值给content.html的值
@@ -63,10 +63,10 @@ tags:
    })
    
    
-   5. //html中如何显示传过去的值呢？？  跟vue一样就可以了 不过有一点差别是显示传过去的dom节点
+  // 5. html中如何显示传过去的值呢？？  跟vue一样就可以了 不过有一点差别是显示传过去的dom节点
    
-        正常显示  {{ name }}   {{ content }}
-        显示dom节点  {{ @h }}
+       // 正常显示  {{ name }}   {{ content }}
+      //  显示dom节点  {{ @h }}
    
    //常规的 开启服务
    
