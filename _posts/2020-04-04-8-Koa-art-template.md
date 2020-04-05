@@ -16,7 +16,7 @@ tags:
 优点：
 
 - `art-template`支持`ejs`的语法
-- 也可以使用自己的类似`vue`的语法 `{{变量}}`
+- 也可以使用自己的类似`vue`的语法 {{变量}}
 
 #### 如何使用？
 
@@ -79,5 +79,3 @@ tags:
    app.use(router.allowedMethods());
    
    ```
-   
-3. 
