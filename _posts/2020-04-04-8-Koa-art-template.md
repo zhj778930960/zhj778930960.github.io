@@ -31,7 +31,7 @@ tags:
 
 2. 使用
 
-   ```javascript
+```javascript
 
    const Koa = require("koa");
    const app = new Koa();
@@ -74,4 +74,5 @@ tags:
    //开启路由
    app.use(router.routes());
    app.use(router.allowedMethods());
-   ```
+   
+```
