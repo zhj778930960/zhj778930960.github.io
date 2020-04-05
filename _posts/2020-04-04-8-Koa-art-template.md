@@ -23,6 +23,7 @@ tags:
 1. 安装
 
    ```javascript
+
    //需要安装两个模块
    npm install art-template --save  //先安装art-template
    npm install koa-art-template --save //再安装koa-art-template
@@ -31,6 +32,7 @@ tags:
 2. 使用
 
    ```javascript
+
    const Koa = require("koa");
    const app = new Koa();
    const router = require("koa-router")();
@@ -77,5 +79,4 @@ tags:
    //开启路由
    app.use(router.routes());
    app.use(router.allowedMethods());
-   
    ```
